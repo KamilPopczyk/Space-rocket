@@ -441,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5UYQ2MMX5;
 				INFOPLIST_FILE = "Space Rocket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KamilPopczykApps.Space-Rocket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -456,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A5UYQ2MMX5;
 				INFOPLIST_FILE = "Space Rocket/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.KamilPopczykApps.Space-Rocket";
 				PRODUCT_NAME = "$(TARGET_NAME)";
