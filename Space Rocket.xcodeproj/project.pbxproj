@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F20B13121E0D67300D9B3A7 /* SpaceRocketGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2F20B13021E0D67300D9B3A7 /* SpaceRocketGIF.gif */; };
 		2F225CE71F9D09D100E494FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F225CE61F9D09D100E494FA /* AppDelegate.swift */; };
 		2F225CE91F9D09D100E494FA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2F225CE81F9D09D100E494FA /* GameScene.sks */; };
 		2F225CEB1F9D09D100E494FA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2F225CEA1F9D09D100E494FA /* Actions.sks */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F20B13021E0D67300D9B3A7 /* SpaceRocketGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SpaceRocketGIF.gif; sourceTree = "<group>"; };
 		2F225CE31F9D09D000E494FA /* Space Rocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Rocket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F225CE61F9D09D100E494FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F225CE81F9D09D100E494FA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -80,9 +82,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F20B12F21E0D61F00D9B3A7 /* ReadmeStuff */ = {
+			isa = PBXGroup;
+			children = (
+				2F20B13021E0D67300D9B3A7 /* SpaceRocketGIF.gif */,
+			);
+			path = ReadmeStuff;
+			sourceTree = "<group>";
+		};
 		2F225CDA1F9D09D000E494FA = {
 			isa = PBXGroup;
 			children = (
+				2F20B12F21E0D61F00D9B3A7 /* ReadmeStuff */,
 				2F225CE51F9D09D000E494FA /* Space Rocket */,
 				2F225D001F9D09D400E494FA /* Space RocketTests */,
 				2F225D0B1F9D09D400E494FA /* Space RocketUITests */,
@@ -245,6 +256,7 @@
 				2F225CE91F9D09D100E494FA /* GameScene.sks in Resources */,
 				2F225CF41F9D09D300E494FA /* Assets.xcassets in Resources */,
 				2F225CF71F9D09D400E494FA /* LaunchScreen.storyboard in Resources */,
+				2F20B13121E0D67300D9B3A7 /* SpaceRocketGIF.gif in Resources */,
 				2F225CEB1F9D09D100E494FA /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
